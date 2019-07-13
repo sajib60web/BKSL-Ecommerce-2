@@ -1,0 +1,284 @@
+.page_menu_search_input {
+    border-radius: 5px;
+    width: 80%;
+    height: 40px;
+    background: #FFFFFF;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+}
+
+.header_search_form_container {
+    width: 100%;
+    height: 50px;
+    border: solid 1px #0E8CE4;
+}
+
+.top_bar {
+    width: 100%;
+    height: 30px;
+    color: #fff;
+    background: #FF5700;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.05);
+    z-index: 3;
+}
+
+.top_bar_user a {
+    color: #fff;
+}
+
+.logo_container {
+    height: 70px;
+}
+
+.header_search {
+    height: 70px;
+}
+
+.wishlist_cart {
+    height: 70px;
+}
+
+.main_nav {
+    width: 100%;
+    border-top: solid 1px #f2f2f2;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    background: #FF5700;
+}
+
+.main_nav_dropdown li a {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 60px;
+}
+
+.standard_dropdown li {
+    display: inline-block;
+    position: relative;
+    height: 47px;
+}
+
+.dropdown-menu.show {
+    display: block;
+    top: -16px !important;
+}
+
+.standard_dropdown li ul {
+    top: 90% !important;
+}
+
+.standard_dropdown li a:hover {
+    color: #ddd;
+}
+
+.standard_dropdown li ul li {
+    display: inline-block !important;
+    position: relative;
+    height: 40px;
+}
+
+.standard_dropdown li ul li a {
+    color: #a19a9a;
+}
+
+.standard_dropdown li ul li a:hover {
+    color: #0E8CE4;
+}
+
+.cat_menu_container {
+    background: #03588E;
+}
+
+.cat_menu_container ul {
+    background: #085790;
+}
+
+.main_nav_content {
+    width: 100%;
+    height: 50px;
+}
+
+.cat_menu_container>ul {
+    padding-top: 0px;
+}
+
+.main_nav_dropdown li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 50px;
+}
+
+.ml-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cat_menu li {
+    height: 30px;
+}
+
+.cat_menu li a {
+    color: #fff;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.cat_menu li ul li a {
+    color: #a19a9a;
+}
+
+.cat_menu li a:hover {
+    color: #FF5700;
+}
+
+.wishlist_text a {
+    font-size: 14px;
+}
+
+.cart_text a {
+    font-size: 14px;
+}
+
+.header_search_button {
+    width: 104px;
+}
+
+.carousel {
+	margin-top: -16px;
+	position: relative;
+}
+.arrivals_single {
+	width: 100%;
+	margin-left: -34px;
+	padding-top: 30px;
+}
+.arrivals_single_image {
+	width: 100%;
+	max-height: 530px;
+}
+.viewed_item {
+	height: 240px;
+}
+.viewed_image {
+    width: 100%;
+    height: 115px;
+}
+.viewed {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background: rgb(85, 107, 47);
+}
+.hello {
+	margin: 2px;
+	border: 2px solid #ddd;
+	height: 30px;
+	width: 30px;
+	float: left;
+	display: block;
+	position: relative;
+	cursor: pointer;
+	font-size: 22px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.hello input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background-color: #00FF00;
+}
+.hello:hover input ~ .checkmark {
+	background-color: #ccc;
+}
+.hello input:checked ~ .checkmark {
+	background-color: #2196F3;
+	-webkit-box-shadow: 0px 0px 11px 1px #495559;
+	box-shadow: 0px 0px 11px 1px #495559;
+	-moz-box-shadow:    1px 2px 19px 6px #FF6486;
+}
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+	border: 2px solid green;
+}
+.hello input:checked ~ .checkmark:after {
+	display: block;
+}
+.hello .checkmark:after {
+	left: 9px;
+	top: 5px;
+	width: 5px;
+	height: 10px;
+	border: solid #00FF00;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.brands {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.newsletter {
+    width: 100%;
+    background: #fafafa;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    padding-top: 52px;
+    padding-bottom: 40px;
+    background: #FF5700;
+    color: #ffffff;
+}
+
+.footer_title {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.footer_phone {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 13px;
+}
+
+.footer_list li a:hover {
+    color: #0E8CE4 !important;
+}
+
+.copyright {
+    width: 100%;
+    background: #636363;
+}
+
+.new_arrivals {
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.characteristics {
+    padding-top: 20px !important;
+    padding-bottom: 30px !important;
+}
